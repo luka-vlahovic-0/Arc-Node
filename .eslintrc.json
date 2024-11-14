@@ -1,0 +1,8 @@
+{
+  "extends": "next",
+  "parserOptions": {
+    "babelOptions": {
+      "presets": ["next/babel"]
+    }
+  }
+}
