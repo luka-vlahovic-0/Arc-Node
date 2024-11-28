@@ -32,12 +32,16 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center sm:items-start">
-          <h1 className="text-white font-sans text-2xl font-semibold hover:scale-105 cursor-pointer mt-16 sm:mt-0 mb-6 md:mb-0">
-            Contact
-          </h1>
-          <h1 className="text-white font-sans text-2xl font-semibold hover:scale-105 cursor-pointer mt-0 md:ml-6">
-            About
-          </h1>
+          <Link href="/contact">
+            <h1 className="text-white font-sans text-2xl font-semibold hover:scale-105 cursor-pointer mt-16 sm:mt-0 mb-6 md:mb-0">
+              Contact
+            </h1>
+          </Link>
+          <Link href="/about">
+            <h1 className="text-white font-sans text-2xl font-semibold hover:scale-105 cursor-pointer mt-0 md:ml-6">
+              About
+            </h1>
+          </Link>
         </div>
       </div>
 
